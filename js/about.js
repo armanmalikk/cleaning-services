@@ -46,60 +46,6 @@ $(document).ready(function(){
           }
         });
 
-    
-      var typed = new Typed('#welcome-title', {
-        strings: [
-        'Welcome',
-        'My Project'
-        ],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      var typed2 = new Typed('#services-title', {
-        strings: ['Services','Get Here'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      var typed3 = new Typed('#carpetServ-text-title', {
-        strings: ['CarpetServ','Get Here'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      var typed4 = new Typed('.steps-class', {
-        strings: ['Steps','Get Here'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      var typed5 = new Typed('#price-title-list', {
-        strings: ['Price'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-      var typed5 = new Typed('#blog-title-list', {
-        strings: ['Blog'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-      });
-
-     // Hide the tuype cursor 
-     $('.typed-cursor').hide();
 
 
    // people say
