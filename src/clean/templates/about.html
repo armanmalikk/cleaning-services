@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<style type="text/css">
+  
+.about-menu {
+    border: 2px solid #36d0c4 !important;
+    border-radius: 50px;
+    background-color: #36d0c4;
+}
+.mobile-about-menu{
+   color: #36d0c4 !important;
+   margin-bottom: 10px;
+   font-weight: 800; 
+}
+</style>
+<script type="text/javascript" src="{% static 'js/about.js' %}"/></script>
+
+  <section id="welcome-section">
+      <div class="container" id="welcome-section-width">
+         <div class="row">
+            <div class="col-sm-12">
+               <di class="col-sm-6" id="wall-img-box">
+                   <img src="{% static 'img/person1.png' %}" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+               </di>
+               <div class="col-sm-6" >
+                   <p id="welcome-title" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">About Us</p>
+                   <p id="welcome-sub" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">Our History</p>
+                   <p id="welcome-des" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">Quisque bibendum ipsum sed varius placerat. Sed eu ligula vestibulum, sagittis lectus ac, pellentesque mi.Quisque bibendum ipsum sed varius placerat. Sed eu ligula vestibulum, sagittis lectus ac, pellentesque mi.Quisque bibendum ipsum sed varius placerat. Sed eu ligula vestibulum, sagittis lectus ac, pellentesque mi.</p>
+                   <div class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+                     <span id="commercial-button" >Read More</span>
+                   </div>  
+               </div>
+            </div>
+         </div>
+      </div>
+    </section><!--             welcome section            --> 
+
+    <section id="third-wall" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+      <img src="{% static 'img/wall-3.png' %}">
+    </section><!--             third wall section            --> 
+
+    <section id="services-section">
+      <div class="container" id="services-width">
+         <div class="row">
+           <div id="services-text">
+               <p id="services-title" class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">Services</p>
+               <p id="services-des" class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">Give Your Carpet A Deep Clean</p>
+           </div>
+            <div class="col-sm-12">
+               <div class="col-sm-4" id="work-img-box" >
+                  <img src="{% static 'img/work1.jpg' %}" id="work-img" class="img-responsive wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">
+                  <div id="work-img-text">
+                      <p class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">Clean</p>
+                  </div>
+               </div>
+               <div class="col-sm-4" id="work-img-box">
+                  <img src="{% static 'img/work2.jpg' %}" id="work-img" class="img-responsive wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">
+                  <div id="work-img-text">
+                      <p class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">Rinse</p>
+                  </div>
+               </div>
+               <div class="col-sm-4" id="work-img-box">
+                  <img src="{% static 'img/work3.jpg' %}" id="work-img" class="img-responsive wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s"> 
+                  <div id="work-img-text">
+                      <p class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">Protect</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="work-button-box">
+                <p id="work-button-text" class="wow fadeIn img-responsive" data-wow-duration="1.1s" data-wow-delay=".5s">View More services</p>
+         </div>
+      </div>
+    </section><!--             Services section            --> 
+
+    <section id="peopleSay-section" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s" style="display: ;">
+      <div class="container" id="services-width">
+        <div class="row">
+           <div class="col-sm-8">
+              <div class="textSlider" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+                  <p class="slidesParttext"> “Just want to let you know that I’m very pleased with the cleaning job you did. Excellent job! Looks like new! Thanks.” ― Oscar Wilde</p>
+                  <p class="slidesParttext">“It’s amazing what two kids can do to a carpet… spills & spots everywhere! I had no idea it could get this clean.” ― Bernard M. Baruch</p>
+                  <p class="slidesParttext">“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.” ― Ralph Waldo Emerson</p>
+              </div>
+              <div id="peopleSay-button-box" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+                  <p id="peopleSay-button">See More Testimonials</p>
+              </div>
+           </div> 
+        </div>
+      </div>
+    </section><!--             peoplesay section            -->
+
+    <section id="Satisfaction-section">
+      <div class="container" id="welcome-section-width">
+         <div class="row">
+            <div class="col-sm-12">
+               <di class="col-sm-6" id="Satisfaction-img-box">
+                   <img src="{% static 'img/customer.png' %}" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+               </di>
+               <div class="col-sm-6" >
+                   <p id="welcome-title" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">Customer Satisfaction</p>
+                   <p id="welcome-sub" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">Our Quality</p>
+                   <p id="welcome-des" class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">We believe that starting from scratch really helped us to take time to establish exactly what you, the client, really need when calling out a carpet and upholstery cleaning technician. We guarantee our prices and the quality of our services.</p>
+                   <div class="wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+                     <span id="commercial-button" >book online</span><span id="residential-button">view prices</span>
+                   </div>  
+               </div>
+            </div>
+         </div>
+      </div>
+    </section><!--             Satisfaction section            --> 
+
+
+
+
+ {% endblock %}  
